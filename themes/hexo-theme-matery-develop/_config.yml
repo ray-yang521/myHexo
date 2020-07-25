@@ -241,16 +241,16 @@ mySkills:
       percent: 85%
     JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 80%
+      percent: 55%
     HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
+      percent: 70%
     CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
+      percent: 65%
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
+      percent: 50%
     程序设计:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
@@ -264,7 +264,15 @@ myGallery:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
     - /medias/featureimages/2.jpg
-
+    - /medias/featureimages/3.jpg
+    - /medias/featureimages/4.jpg
+    - /medias/featureimages/5.jpg
+    - /medias/featureimages/6.jpg
+    - /medias/featureimages/7.jpg
+    - /medias/featureimages/8.jpg
+    - /medias/featureimages/9.jpg
+    - /medias/featureimages/10.jpg
+    - /medias/featureimages/11.jpg
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
@@ -518,9 +526,9 @@ canvas_nest:
   enable: true
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
-  opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
+  opacity: 0.5 # 线条透明度（0~1）, 默认: 0.5
   zIndex: -1 # 背景的 z-index 属性，css 属性用于控制所在层的位置, 默认: -1.
-  count: 99 # 线条的总数量, 默认: 99
+  count: 199 # 线条的总数量, 默认: 99
 
 # 背景静止彩带.
 ribbon:
