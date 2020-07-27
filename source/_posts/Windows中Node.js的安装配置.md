@@ -5,7 +5,7 @@ tags: [EnvConfig,Windows]
 date: 2020-02-22 12:50:56
 id: 1
 categories: EnvConfig
-top: True
+top: False
 ---
 ## 引言：
 Window中Node.js及npm详细安装配置过程，npm是Nodejs下的包管理工具，在安装Nodejs时，会自动安装npm。

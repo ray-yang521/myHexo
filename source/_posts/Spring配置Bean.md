@@ -5,7 +5,7 @@ tags: [Spring,Java]
 date: 2020-03-07 17:45:58
 id: 2
 categories: Spring
-cover: True
+cover: False
 ---
 ## 引言：
 在Spring IOC容器中配置Bean，然后使用该Bean
