@@ -131,7 +131,7 @@ theme: hexo-theme-matery-develop
 deploy:
   type: git
   repo: 
-        github: https://github.com/ray-yang521/ray-yang521.github.io.git
+        github: git@github.com:ray-yang521/ray-yang521.github.io.git
         gitee:  git@gitee.com:ymh525885186/ymh525885186.git
   branch: master
 
