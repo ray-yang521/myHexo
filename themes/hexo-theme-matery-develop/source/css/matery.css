@@ -37,7 +37,13 @@ body {
     background-color: #eaeaea;
     margin: 0;
     color: #34495e;
+	/** 正常指针样式**/
+	cursor: url('https://ymh525885186.gitee.io/mouse/arrow.cur'),auto;
 }
+
+/** 链接指针样式**/
+a:hover{cursor:url('https://ymh525885186.gitee.io/mouse/hand.cur'), pointer;}
+/** 鼠标样式 结束**/
 
 h1 {
     margin: 48px 0 22px -5px;
