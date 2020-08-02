@@ -11,7 +11,7 @@ tags: [hexo]
 ![问题复现](解决Hexo图片无法显示问题/1.png?v=1&type=image)
 上网找了很多方式都没有完美解决问题，后来查看了官方文档后终于解决了问题（完美解决），现在贴出来如下。建议以后大家遇到了问题也先去看看官方文档：[https://hexo.io/zh-cn/docs](https://hexo.io/zh-cn/docs "hexo文档")
 
-解决方案如下：
+## 解决方案
 
 　　1. 在根目录下配置文件`_config.yml`  中有  `post_asset_folder:false改为true`。这样在建立文件时，`Hexo`会自动建立一个与文章同名的文件夹，这样就可以把与该文章相关的所有资源（图片）都放到那个文件夹里方便后面引用。如这里我放了一张test.jpg的图片。
 
