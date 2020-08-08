@@ -2,9 +2,8 @@
 title: Hexo博客系统的搭建
 author: YangChongZhi
 date: 2020-02-20 15:53:33
-id: 1
-categories: EnvConfig
-tags: [EnvConfig,Windows]
+categories: 总结
+tags: [Hexo,matery]
 top: True
 cover: True
 ---

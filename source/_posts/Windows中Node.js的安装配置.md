@@ -1,10 +1,9 @@
 ---
 title: Windows中Node.js的安装配置
 author: YangChongZhi
-tags: [EnvConfig,Windows]
+tags: [Node.js,Windows]
 date: 2020-02-22 12:50:56
-id: 1
-categories: EnvConfig
+categories: 总结
 top: False
 ---
 ## 引言：

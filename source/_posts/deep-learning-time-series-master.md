@@ -2,7 +2,7 @@
 title: Focus on deep learning and time series forecasting with some resources and code.
 date: 2020-08-07 16:06:08
 categories: 备忘
-tags: [deeplearning, time series forcasting]
+tags: [deep learning, time series forecasting]
 top: false
 cover: false
 summary: List of state of the art papers focus on deep learning and resources, code and experiments using deep learning for time series forecasting. Classic methods vs Deep Learning methods, Competitions...
