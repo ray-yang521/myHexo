@@ -14,6 +14,9 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
+  gallery:
+    url: /gallery
+    icon: fas fa-image
   About:
     url: /about
     icon: fas fa-user-circle
@@ -609,3 +612,16 @@ sakura:
 # 天气接口插件
 weather:
   enable: true
+
+
+# 相册
+gallery:
+  title: 光影流年
+  icon: fas fa-image
+  icon2: fas fa-image
+
+# 加密相册
+PhotoVerifyPassword:
+  enable: true
+  promptMessage: 该相册已加密，请输入密码访问
+  errorMessage: 密码错误，将返回主页！
