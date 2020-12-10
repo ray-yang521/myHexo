@@ -14,7 +14,7 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
-  小时光:
+  gallery:
     url: /gallery
     icon: fas fa-image
   About:
@@ -612,7 +612,6 @@ sakura:
 # 天气接口插件
 weather:
   enable: true
-
 
 # 相册
 gallery:
