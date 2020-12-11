@@ -17,10 +17,17 @@
 
 <!-- <%- partial('_partial/bg-cover') %> -->
 
-<link rel="stylesheet" href="<%- theme.libs.css.baguetteBoxCss %>">
 <!-- 该主题自带的lightGallery.js在图片多的时候会很卡，所以弃用，使用了一个我在网上找的baguetteBox，很轻量级，就是功能少了点 -->
+<link rel="stylesheet" href="<%- theme.libs.css.baguetteBoxCss %>">
 <script src="<%- theme.libs.js.baguetteBoxJs %>"></script> 
-<style>    
+
+<script type="text/javascript" src="/js/baguetteBox.js"></script>
+<link rel="stylesheet" href="/css/baguetteBox.css">
+
+
+
+
+<style>
     .my-gallery .photo img {
         transition: all 0.6s ease-in-out; 
     }     

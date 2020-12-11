@@ -7,7 +7,6 @@
    "url_name": "♥韩美丽的吃货集锦♥",
    "album": [
        {
-<<<<<<< HEAD
            "img_url": "1.jpg",
            "title": "♥韩美丽的吃货集锦♥",
            "describe": "♥干饭人♥"
@@ -86,21 +85,21 @@
            "img_url": "16.jpg",
            "title": "♥韩美丽的吃货集锦♥",
            "describe": "♥干饭才是人上人！♥"
-=======
-           "img_url": "♥韩美丽的吃货集锦♥/1.jpg",
+       },
+       {
+           "img_url": "17.jpg",
            "title": "♥韩美丽的吃货集锦♥",
            "describe": "♥韩美丽的吃货集锦♥"
        },
        {
-           "img_url": "♥韩美丽的吃货集锦♥/2.jpg",
+           "img_url": "18.jpg",
            "title": "♥韩美丽的吃货集锦♥",
            "describe": "♥韩美丽的吃货集锦♥"
        },
        {
-           "img_url": "♥韩美丽的吃货集锦♥/3.jpg",
+           "img_url": "19.jpg",
            "title": "♥韩美丽的吃货集锦♥",
            "describe": "♥韩美丽的吃货集锦♥"
->>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
        }
      ]
    }
