@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ï»¿<!-- åŠ å¯†åŠŸèƒ½ -->
+=======
+<!-- ¼ÓÃÜ¹¦ÄÜ -->
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
 <% if (theme.PhotoVerifyPassword.enable) { %>
     <script src="<%- theme.libs.js.crypto %>"></script>
     <script>
@@ -18,6 +22,7 @@
 <!-- <%- partial('_partial/bg-cover') %> -->
 
 <link rel="stylesheet" href="<%- theme.libs.css.baguetteBoxCss %>">
+<<<<<<< HEAD
 <!-- è¯¥ä¸»é¢˜è‡ªå¸¦çš„lightGallery.jsåœ¨å›¾ç‰‡å¤šçš„æ—¶å€™ä¼šå¾ˆå¡ï¼Œæ‰€ä»¥å¼ƒç”¨ï¼Œä½¿ç”¨äº†ä¸€ä¸ªæˆ‘åœ¨ç½‘ä¸Šæ‰¾çš„baguetteBoxï¼Œå¾ˆè½»é‡çº§ï¼Œå°±æ˜¯åŠŸèƒ½å°‘äº†ç‚¹ -->
 <script src="<%- theme.libs.js.baguetteBoxJs %>"></script> 
 
@@ -29,6 +34,10 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
 
 
 
+=======
+<!-- ¸ÃÖ÷Ìâ×Ô´øµÄlightGallery.jsÔÚÍ¼Æ¬¶àµÄÊ±ºò»áºÜ¿¨£¬ËùÒÔÆúÓÃ£¬Ê¹ÓÃÁËÒ»¸öÎÒÔÚÍøÉÏÕÒµÄbaguetteBox£¬ºÜÇáÁ¿¼¶£¬¾ÍÊÇ¹¦ÄÜÉÙÁËµã -->
+<script src="<%- theme.libs.js.baguetteBoxJs %>"></script> 
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
 <style>    
     .my-gallery .photo img {
         transition: all 0.6s ease-in-out; 
@@ -119,6 +128,7 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
 <div class="tag-title center-align">
     <div class="miaoshus">
         <div class="title center-align">
+<<<<<<< HEAD
             â€œ <% if (is_home() && config.subtitle && config.subtitle.length > 0) { %>
                 <%= config.subtitle %>
             <% } else { %>
@@ -131,6 +141,20 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
 </div>
 
 <!-- ç›¸å†Œ -->
+=======
+            ¡° <% if (is_home() && config.subtitle && config.subtitle.length > 0) { %>
+                <%= config.subtitle %>
+            <% } else { %>
+                <%= page.title %>
+            <% } %> ¡±
+        </div>
+        ¡° <%- theme.gallery.title %> ¡±
+        ¡° ÕâÀïÓÐ¹âÓ°Á÷Äê£¬»¹ÓÐÁ½¶ä´©ÒÂÉÑµÄÔÆ£¬ÏàÓµÔÚÃ÷ÌìµÄºÓ°¶¡£¡±
+    </div>
+</div>
+
+<!-- Ïà²á -->
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
 <section class="gallery">
     <div id="myGallery" class="my-gallery">
         <div class="row">
@@ -161,6 +185,7 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
 </section>
 <script>
     $(function () {
+<<<<<<< HEAD
         // èŽ·å–å›¾ç‰‡çš„å®½åº¦(200px)
         let imgWidth = $('.mat').outerWidth(); // 200
         waterfallHandler();
@@ -169,10 +194,21 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
             // èŽ·å–å›¾ç‰‡çš„åˆ—æ•°
             let column = parseInt($(window).width() / imgWidth);
             // é«˜åº¦æ•°ç»„
+=======
+        // »ñÈ¡Í¼Æ¬µÄ¿í¶È(200px)
+        let imgWidth = $('.mat').outerWidth(); // 200
+        waterfallHandler();
+        // ÆÙ²¼Á÷´¦Àí
+        function waterfallHandler() {
+            // »ñÈ¡Í¼Æ¬µÄÁÐÊý
+            let column = parseInt($(window).width() / imgWidth);
+            // ¸ß¶ÈÊý×é
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
             let heightArr = [];
             for(let i=0; i<column; i++) {
                 heightArr[i] = 0;
             }
+<<<<<<< HEAD
             // éåŽ†æ‰€æœ‰å›¾ç‰‡è¿›è¡Œå®šä½å¤„ç†
             $.each($('.mat'), function (index, item) {
                 // å½“å‰å…ƒç´ çš„é«˜åº¦
@@ -180,6 +216,15 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
                 // é«˜åº¦æ•°ç»„æœ€å°çš„é«˜åº¦
                 let minHeight = Math.min(...heightArr);
                 // é«˜åº¦æ•°ç»„æœ€å°çš„é«˜åº¦çš„ç´¢å¼•
+=======
+            // ±éÀúËùÓÐÍ¼Æ¬½øÐÐ¶¨Î»´¦Àí
+            $.each($('.mat'), function (index, item) {
+                // µ±Ç°ÔªËØµÄ¸ß¶È
+                let itemHeight = $(item).outerHeight();
+                // ¸ß¶ÈÊý×é×îÐ¡µÄ¸ß¶È
+                let minHeight = Math.min(...heightArr);
+                // ¸ß¶ÈÊý×é×îÐ¡µÄ¸ß¶ÈµÄË÷Òý
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
                 let minIndex = heightArr.indexOf(minHeight);
                 
                 $(item).css({
@@ -190,7 +235,11 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
                 heightArr[minIndex] += itemHeight;
             });
         }
+<<<<<<< HEAD
         // çª—å£å¤§å°æ”¹å˜
+=======
+        // ´°¿Ú´óÐ¡¸Ä±ä
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
         $(window).resize(function () {
             waterfallHandler();
         });
@@ -198,11 +247,19 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
 </script>
 <script>
     baguetteBox.run('.gallery', {
+<<<<<<< HEAD
         // é…ç½®å‚æ•°
         buttons:Boolean,//æ˜¯å¦æ˜¾ç¤ºå¯¼èˆªæŒ‰é’®ã€‚
         noScrollbars:true,//æ˜¯å¦åœ¨æ˜¾ç¤ºæ—¶éšè—æ»šåŠ¨æ¡ã€‚
         titleTag:true,//æ˜¯å¦ä½¿ç”¨å›¾ç‰‡ä¸Šçš„titleå±žæ€§ä½œä¸ºå›¾ç‰‡æ ‡é¢˜
         async:true,//æ˜¯å¦å¼‚æ­¥åŠ è½½æ–‡ä»¶ã€‚
+=======
+        // ÅäÖÃ²ÎÊý
+        buttons:Boolean,//ÊÇ·ñÏÔÊ¾µ¼º½°´Å¥¡£
+        noScrollbars:true,//ÊÇ·ñÔÚÏÔÊ¾Ê±Òþ²Ø¹ö¶¯Ìõ¡£
+        titleTag:true,//ÊÇ·ñÊ¹ÓÃÍ¼Æ¬ÉÏµÄtitleÊôÐÔ×÷ÎªÍ¼Æ¬±êÌâ
+        async:false,//ÊÇ·ñÒì²½¼ÓÔØÎÄ¼þ¡£
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
     });
 
     start()
@@ -211,7 +268,11 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
     })
 
     function start(){
+<<<<<<< HEAD
           //.not('[data-isLoaded]')é€‰ä¸­å·²åŠ è½½çš„å›¾ç‰‡ä¸éœ€è¦é‡æ–°åŠ è½½
+=======
+          //.not('[data-isLoaded]')Ñ¡ÖÐÒÑ¼ÓÔØµÄÍ¼Æ¬²»ÐèÒªÖØÐÂ¼ÓÔØ
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
         $('.gallery img').not('[data-isLoaded]').each(function(){
             var $node = $(this)
             if( isShow($node) ){
@@ -220,6 +281,7 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
         });
     }
 
+<<<<<<< HEAD
     //åˆ¤æ–­ä¸€ä¸ªå…ƒç´ æ˜¯ä¸æ˜¯å‡ºçŽ°åœ¨çª—å£(è§†é‡Ž)
     function isShow($node){
         return $node.offset().top <= $(window).height() + $(window).scrollTop();
@@ -230,5 +292,17 @@ document.write('<link rel="stylesheet" href="/libs/MyGallery/css/baguetteBox.css
     //.attr(å±žæ€§åç§°,å€¼)
         $img.attr('src', $img.attr('data-src')); //æŠŠdata-srcçš„å€¼ èµ‹å€¼ç»™src
         $img.attr('data-isLoaded', 1);//å·²åŠ è½½çš„å›¾ç‰‡åšæ ‡è®°
+=======
+    //ÅÐ¶ÏÒ»¸öÔªËØÊÇ²»ÊÇ³öÏÖÔÚ´°¿Ú(ÊÓÒ°)
+    function isShow($node){
+        return $node.offset().top <= $(window).height() + $(window).scrollTop();
+    }
+    //¼ÓÔØÍ¼Æ¬
+    function loadImg($img){
+    //.attr(Öµ)
+    //.attr(ÊôÐÔÃû³Æ,Öµ)
+        $img.attr('src', $img.attr('data-src')); //°Ñdata-srcµÄÖµ ¸³Öµ¸øsrc
+        $img.attr('data-isLoaded', 1);//ÒÑ¼ÓÔØµÄÍ¼Æ¬×ö±ê¼Ç
+>>>>>>> 0e42d1996ebec40afa00e2fc65351f41fd85d46e
     }
 </script>
