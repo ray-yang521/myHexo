@@ -360,8 +360,8 @@ githubLink:
 # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
 verifyPassword:
   enable: true
-  promptMessage: 请输入访问本文章的密码
-  errorMessage: 密码错误，将返回主页！
+  promptMessage: 这是博主的私密博文哦~请输入密码查看o(^▽^)o
+  errorMessage: 对不起！密码错误哦！( ▼-▼ )
 
 # busuanzi(http://busuanzi.ibruce.info/) website statistics
 # 不蒜子(http://busuanzi.ibruce.info/) 网站统计
