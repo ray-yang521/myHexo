@@ -138,7 +138,7 @@
 		if (localStorage.getItem('dark') === '1') { 
 		document.body.classList.add('dark'); 
 		} 
-		else if (new Date().getHours() >= 22 || new Date().getHours() < 7) { 
+		else if (new Date().getHours() >= 23.5 || new Date().getHours() < 7) { 
 		document.body.classList.add('dark'); 
 		} 
 		else if (matchMedia('(prefers-color-scheme: dark)').matches) { 
@@ -148,6 +148,38 @@
 		<a onclick="switchNightMode()" id="sma"> 
 			<i class="fa fa-moon-o" id="nightMode" aria-hidden="true"></i> 
 		</a>
+		
+		<!-- 网站主题切换模式开始  YMH  2021年1月9日 19:07:23 -->
+		<script>
+		if (localStorage.getItem('themespring') === '1') {
+			document.body.classList.add('themespring');
+		} else if (matchMedia('(prefers-color-scheme: themespring)').matches) {
+			document.body.classList.add('themespring');
+		}
+
+		function switchThemes() {
+			var body = document.body;
+			if (body.classList.contains('themespring')) {
+				document.body.classList.remove('themespring');
+				localStorage.setItem('themespring', '0');
+				document.querySelector(".deng-box").style.display = "none";
+				document.querySelector(".deng-box1").style.display = "none";
+				return;
+			} else {
+				document.body.classList.add('themespring');
+				localStorage.setItem('themespring', '1');
+				document.querySelector(".deng-box").style.display = "block";
+				document.querySelector(".deng-box1").style.display = "block";
+				return;
+			}
+		}; 
+		</script>
+		<!-- 春节主题 按钮 --> 
+		<a onclick="switchThemes()" id="switchspring"> 
+			<img class="chunjiepic" src="https://nekodeng.gitee.io/medias/spring-img/caishen.png" title="节日模式"> 
+		</a>
+		<!-- 网站主题切换模式结束  YMH  2021年1月9日 19:07:23 -->
+
 
 
 </body>
