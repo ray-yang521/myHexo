@@ -2178,8 +2178,8 @@ footer .copy-right {
 /* 深色模式按钮设置 */
 #sma {
     background: #000;
-    width: 38px;
-    height: 38px;
+    width: 48px;
+    height: 48px;
     display: block;
     position: fixed;
     border-radius: 50%;
@@ -2193,19 +2193,23 @@ footer .copy-right {
 
 #sma .fa-moon-o {
     position: absolute;
-    right: 8px;
-    bottom: 8px;
-    font-size: 1.48rem !important;
+    right: 13px;
+    bottom: 13px;
+    font-size: 1.5rem !important;
 }
 
 #sma .fa-lightbulb-o {
     position: absolute;
     right: 13px;
-    bottom: 8px;
+    bottom: 13px;
     font-size: 1.5rem !important;
 }
 
 .fa-moon-o:before {
+    content: "\f186";
+}
+
+.fa-lightbulb-o:before {
     content: "\f186";
 }
 
